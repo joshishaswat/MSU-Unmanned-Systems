@@ -4,9 +4,9 @@ from sh import gphoto2 as gp
 import signal, os, subprocess
 
 def killgphoto2process():
-	"""
-	Function resets communication to camera 
-	"""
+    """
+    Function resets communication to camera 
+    """
     p = subprocess.Popen(['ps', '-A'], stdout=subprocess.PIPE)
     out, err = p.communicate ()
 
@@ -21,9 +21,9 @@ filename = 'filename'
 triggerCommand = str("--capture-image-and-download --filename " + shot_time)
 
 def captureImages():
-	"""
-	Generate image capture command
-	"""
+    """
+    Generate image capture command
+    """
     gp(triggerCommand)
     sleep(12)
     
