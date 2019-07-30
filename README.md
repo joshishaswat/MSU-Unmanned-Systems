@@ -2,7 +2,7 @@
 
 ## Finished code for two projects developed in the Michigan State University Unmanned Systems team.
 
-The following projects aid in completing missions on a fully autonomous drone. 
+The following projects aid in completing missions on a fully autonomous drone:
 
 1. Auto Photo Capture 
 
